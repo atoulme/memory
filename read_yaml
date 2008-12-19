@@ -1,0 +1,4 @@
+# How to read a yaml file
+
+require('yaml')
+builds = YAML::load_file("#{File.dirname(__FILE__)}/builds.yaml")
